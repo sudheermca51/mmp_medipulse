@@ -9,7 +9,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-@Test
+@Test(description="DataProvider Example")
 public class DataProviderEx {
 	@DataProvider(name = "test3")
 	public Object[][] createData1() {
