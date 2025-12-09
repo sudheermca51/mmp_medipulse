@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 
 @Test
 public class DataProviderEx {
-	@DataProvider(name = "test1")
+	@DataProvider(name = "test3")
 	public Object[][] createData1() {
 	 return new Object[][] {
 	   { "Cedric", 36 },
