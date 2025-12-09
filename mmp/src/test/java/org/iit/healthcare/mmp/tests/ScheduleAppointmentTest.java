@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 public class ScheduleAppointmentTest {
 
 
-	@Test
+	@Test(description="Schedule Appointment")
 	public void testScheduleAppointment() {
 		WebDriver driver;
 		String url = "http://85.209.95.122/MMP-Release2-Integrated-Build.6.8.000/portal/login.php";
