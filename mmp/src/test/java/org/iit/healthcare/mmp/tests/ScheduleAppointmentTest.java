@@ -30,7 +30,7 @@ public class ScheduleAppointmentTest {
 		
 		driver.
 		findElement(By.
-				xpath("//h4[contains(text(),'Smith')]/following::p[text()='Description:Orthopedic']/following::button[1]")).click();
+				xpath("//h4[contains(text(),'Alexander')]/following::p[text()='Description:Orthopedic']/following::button[1]")).click();
 		
 		 driver.switchTo().frame("myframe");
 		 
