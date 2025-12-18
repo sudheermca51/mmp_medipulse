@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="2" name="Test">
     <classes>
-      <class name="org.iit.healthcare.mmp.tests.ScheduleAppointment_DatePicker_Op2_Test"/>
+      <class name="org.iit.healthcare.mmp.tests.ScheduleAppointment_DatePicker_Test"/>
       <class name="org.iit.healthcare.mmp.tests.EditProfile_Test"/>
     </classes>
   </test> <!-- Test -->
