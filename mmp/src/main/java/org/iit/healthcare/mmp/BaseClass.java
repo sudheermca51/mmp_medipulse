@@ -82,9 +82,7 @@ public class BaseClass {
 		{
 
 		case "chrome":
-			ChromeOptions options = new ChromeOptions();
-			options.addArguments("incognito");//to open browser in incognito mode
-			
+			ChromeOptions options = new ChromeOptions();			
 			driver = new ChromeDriver(options);
 			break;
 
