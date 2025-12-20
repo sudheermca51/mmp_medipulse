@@ -3,8 +3,8 @@
 <suite name="Suite">
   <test thread-count="2" name="Test">
     <classes>
-      <class name="org.iit.healthcare.mmp.tests.ScheduleAppointment_DatePicker_Test"/>
-      <class name="org.iit.healthcare.mmp.tests.EditProfile_Test"/>
+      <class name="org.iit.healthcare.mmp.tests.ScheduleAppointmentTest"/>
+     <class name="org.iit.healthcare.mmp.tests.EditProfile_Test"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
